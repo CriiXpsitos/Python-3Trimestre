@@ -31,4 +31,5 @@ for nombre, edad in zip(aprendices_edades[0], aprendices_edades[1]):
         print(f" Personas con mayor de 18 años \n Nombre: {nombre} Edad: {edad}") 
 
 
+
     
