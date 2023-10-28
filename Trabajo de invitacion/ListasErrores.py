@@ -17,13 +17,13 @@ for nombre, edad in zip(aprendices_edades[0], aprendices_edades[1]):
 
 #poner el nombre de la instructora en el primero
 
-#error 1
+
 aprendices_edades[1].insert(0, "Adriana lucia rincon Forero" )
     
 print("----------------INSTRUCTORA---------------------------")
 print(aprendices_edades [0])
 
-#error 2
+
 print("---------- la persona con mayor edad ---------------")
 
 # edadMax=max(aprendices_edades[1])
@@ -47,7 +47,7 @@ print(f"La persona con la mayor edad es: {nombreMax}, tiene {edadMax} años")
 
 # cuantos aprendices tienen 18 
 
-#error 3
+
 print("---------- cuantas personas con 18 hay?-----------")
 conteoEdad18 = print(aprendices_edades[0].count("18"))
 
